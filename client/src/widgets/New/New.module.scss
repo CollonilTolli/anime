@@ -1,0 +1,10 @@
+.Container {
+  margin-top: 26px;
+
+  .CatalogAnime {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 27px;
+  }
+}

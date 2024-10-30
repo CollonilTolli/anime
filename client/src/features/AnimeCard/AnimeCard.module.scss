@@ -1,0 +1,40 @@
+.ContainerCard {
+  max-width: calc(50% - 13.5px);
+  width: 100%;
+  display: flex;
+  background-color: #333;
+  color: #fff;
+
+  .AnimeInfo {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 14px;
+    font-weight: 400;
+
+    .Title {
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .YearAndType {
+      text-transform: uppercase;
+    }
+
+    .Tags {
+      text-transform: uppercase;
+
+      span {
+        margin-left: 0.5em;
+        text-transform: capitalize;
+
+        &:not(:last-of-type) {
+          &::after {
+            content: ","
+          }
+        }
+      }
+    }
+  }
+}

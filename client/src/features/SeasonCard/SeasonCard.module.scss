@@ -1,0 +1,13 @@
+.ContainerCard {
+  position: relative;
+  width: fit-content;
+
+  .Title {
+    padding: 15px 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
